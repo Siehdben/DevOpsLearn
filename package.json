@@ -1,0 +1,18 @@
+{
+  "name": "devopslearn",
+  "version": "1.0.0",
+  "description": "Учебный проект: персональный сайт-портфолио, реализованный через полный SDLC/DevOps workflow — от идеи до production, с CI/CD, Docker и Infrastructure as Code.",
+  "private": true,
+  "scripts": {
+    "test:html": "htmlhint src/**/*.html",
+    "test:links": "linkinator src/index.html",
+    "test": "npm run test:html && npm run test:links"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "htmlhint": "^1.9.2",
+    "linkinator": "^7.6.1"
+  }
+}
